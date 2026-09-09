@@ -1,0 +1,17 @@
+{
+  "CISD_vs_ERM_auroc_paired_t": {
+    "mean_diff": 0.03515738351725116,
+    "std_diff": 0.049978186692273184,
+    "t_stat": 3.145944447310583,
+    "n": 20,
+    "df": 19
+  },
+  "CISD_vs_IRM_auroc_paired_t": {
+    "mean_diff": 0.02698232928933163,
+    "std_diff": 0.07634971940923876,
+    "t_stat": 1.5804726709952601,
+    "n": 20,
+    "df": 19
+  },
+  "note": "Two-tailed paired t-test across 4 held-out sites x 5 seeds (n=20). Critical t at df=19: 2.093 (p<0.05), 2.861 (p<0.01)."
+}
