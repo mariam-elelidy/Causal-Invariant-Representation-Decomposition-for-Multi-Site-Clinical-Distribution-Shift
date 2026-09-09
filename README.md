@@ -26,7 +26,7 @@ top of its representation, but they do not give the representation an
 explicit place to *put* the environment-specific signal it inevitably
 picks up. As a result the invariance penalty and the predictive objective
 fight over the same features. To the best of our literature search
-(see `Writeup.md` §2 for the sources checked), decomposition-based
+(see `Writeup.md` for the sources checked), decomposition-based
 approaches that combine (a) an explicit stable/spurious representation
 split, (b) an adversarial (gradient-reversal) environment classifier on the
 stable block, and (c) a non-adversarial auxiliary environment classifier on
