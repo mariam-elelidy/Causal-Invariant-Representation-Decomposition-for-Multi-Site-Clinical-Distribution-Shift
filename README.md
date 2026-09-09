@@ -144,7 +144,7 @@ t = 1.58 (p ≈ 0.13, **not** significant).
 **Per-site breakdown reveals CISD does not win uniformly** — on Switzerland
 (93% positive, the most extreme label-shift site) IRM outperforms CISD
 (AUROC 0.655 vs 0.589), while CISD wins clearly on Cleveland, Hungary, and
-VA. See Discussion / Limitations in `Writeup.md` §16 for why.
+VA. See Discussion / Limitations in `Writeup.md` 16 for why.
 
 Missing-modality test: CISD degrades less than ERM when the exercise-test
 modality is zeroed at test time (AUROC 0.636 vs 0.589) and the clinical
