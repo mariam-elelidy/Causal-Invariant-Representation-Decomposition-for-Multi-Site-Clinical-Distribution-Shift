@@ -47,7 +47,7 @@ which is split into two disjoint blocks:
 Z = [Z_stable | Z_spurious]
 ```
 
-- **Outcome head** predicts disease presence from `Z_stable` **only**.
+- **Outcome head** predicts disease presence from `Z_stable` only.
 - **Adversarial environment head** (gradient-reversal) tries to predict the
   site from `Z_stable`; the encoder is trained to *defeat* it, actively
   stripping site-identifying information out of the block that drives
